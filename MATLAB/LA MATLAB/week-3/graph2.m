@@ -1,0 +1,16 @@
+origin=[0,0,0];
+v1=[3,4,2];
+v=[-2,5,-3];
+quiver3(origin(1),origin(2),origin(3),v1(1),v1(2),v1(3),0,'r','LineWidth',2);
+hold on;
+quiver3(origin(1),origin(2),origin(3),v2(1),v2(2),v2(3),0,'b','LineWidth',2);
+xlim([-5,5]);
+ylim([-5,5]);
+zlim([-5,5]);
+grid on;
+xlabel('X-axis');
+ylabel('Y-axis');
+zlabel('Z-axis');
+title('3D Vectors');
+legend('Vector v1''Vector v2');
+hold off;

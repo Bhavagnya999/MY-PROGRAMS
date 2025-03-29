@@ -1,0 +1,14 @@
+origin=[0,0];
+v1=[3,4];
+v2=[-2,5];
+quiver(origin(1),origin(2),v1(1),v1(2),0,'r','LineWidth',2);
+hold on;
+quiver(origin(1),origin(2),v1(1),v2(2),0,'g','LineWidth',2);
+xlim([-3,9]);
+ylim([-9,7]);
+grid on;
+xlabel('X-axis');
+ylabel('Y-axis');
+title('2D-vectors');
+legend('vetor1','vector2');
+hold off;
