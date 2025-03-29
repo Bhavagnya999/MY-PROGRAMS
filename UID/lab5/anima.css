@@ -1,0 +1,93 @@
+.banner {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.haunted-card {
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    opacity: 0;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.gpblock {
+    background-image: url('C:\Users\BHAVAGNYA\Desktop\UID\lab5\lab5');
+    animation: slideAnimationgpblock 5s alternate infinite;
+}
+
+.w3gk {
+    background-image: url('C:\Users\BHAVAGNYA\Desktop\UID\lab5\lab5');
+    animation: slideAnimationw3gk 5s 1s alternate infinite;
+}
+
+.bhangarhfort {
+    background-image: url('C:\Users\BHAVAGNYA\Desktop\UID\lab5\lab5');
+    animation: slideAnimationBhangarh 5s alternate infinite;
+}
+
+@keyframes slideAnimationgpblock {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    20% {
+        left: 50%;
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-30%);
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes slideAnimationw3gk {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    20% {
+        left: 50%;
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-30%);
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes slideAnimationBhangarh {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    20% {
+        left: 50%;
+        opacity: 1;
+    }
+    80% {
+        transform: translateY(-30%);
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}

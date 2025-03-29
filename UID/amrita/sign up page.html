@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrita B.Tech Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a0004d;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 300px;
+        }
+        .container h1 {
+            color: #ffffff;
+            background-color: #a0004d;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            margin: -20px -20px 20px -20px;
+        }
+        .container input, .container select {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .container button {
+            background-color: #0097ae;
+            color: #000;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: calc(100% - 20px);
+        }
+        .container button:hover {
+            background-color: #e6b800;
+        }
+        .container p {
+            font-size: 12px;
+            color: #666;
+        }
+        .container a {
+            color: #a0004d;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Amrita B.Tech Application </h1>
+        <p>Already Registered? <a href="#">Login</a></p>
+        <input type="text" placeholder="Name *">
+        <input type="text" placeholder="+91 Mobile">
+        <input type="email" placeholder="Email">
+        <select>
+            <option value="" disabled selected>State</option>
+            <!-- Add state options here -->
+        </select>
+        <input type="text" placeholder="City">
+        <button>REGISTER</button>
+        <p>I authorize Amrita to contact me with notifications / updates via call/ email/ SMS/ WhatsApp which overrides DND/NDNC registration.</p>
+    </div>
+</body>
+</html>

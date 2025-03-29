@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with CSS Box Model</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .box {
+            background: white;
+            border: 2px solid #ccc;
+            padding: 20px;
+            width: 320px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        img, video {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #999;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            border: none;
+            background: #8f0077;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #71017f;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Webpage Using CSS Box Model</h1>
+
+    <div class="container">
+        <!-- Box 1: Video and Button -->
+        <div class="box">
+            <h2>Awesome Nature Video</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <button>Watch Again</button>
+        </div>
+
+        <!-- Box 2: Image and Button -->
+        <div class="box">
+            <h2>Beautiful Landscape</h2>
+            <img src="landscape.jpg" alt="Landscape Image">
+            <button>View More</button>
+        </div>
+
+        <!-- Box 3: Table and Button -->
+        <div class="box">
+            <h2>Top Hiking Spots</h2>
+            <table>
+                <tr>
+                    <th>#</th>
+                    <th>Location</th>
+                    <th>Country</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Trolltunga</td>
+                    <td>Norway</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Machu Picchu</td>
+                    <td>Peru</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mount Fuji</td>
+                    <td>Japan</td>
+                </tr>
+            </table>
+            <button>Explore More</button>
+        </div>
+    </div>
+
+</body>
+</html>

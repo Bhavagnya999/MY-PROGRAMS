@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ab, .bc, .cd, .de, .ef {
+            width: 100px;
+            height: 100px;                                                                                                                                                                    
+            transition-property: width;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+            border: 1px solid black;
+            margin-left: 10px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .ab { background: purple; }
+        .bc { background: rgb(142, 3, 133); }
+        .cd { background: rgba(246, 17, 124, 0.844); }
+        .de{ background: rgb(236, 109, 243); }
+        .wef { background: rgb(192, 22, 22); }
+
+        .ab:hover, .bc:hover, .cd:hover, .de:hover, .ef:hover {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>The transition properties specified one by one</h1>
+    <p>Hover over the div elements below to see the transition effect:</p>
+
+    <div class="ab"><a href="#">ab</a></div>
+    <div class="bc"><a href="#">bc</a></div>
+    <div class="cd"><a href="#">cd</a></div>
+    <div class="de"><a href="#">de</a></div>
+    <div class="ef"><a href="#">ef</a></div>
+
+</body>
+</html>

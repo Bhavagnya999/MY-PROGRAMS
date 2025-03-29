@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>College Website</title>
+<meta name="viewport" content="width=device-width" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+* {
+	font-family sans-serif, arial;
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-size:16px;
+}
+a {
+	text-decoration:none;
+}
+:target {
+	display:block!important;
+}
+<header>
+    <div class="container">
+      <div class="heads">
+        <div class="logo"><img src="C:\Users\BHAVAGNYA\Desktop\A WP\amrita.png"></div>
+         <div class="menu"><a href="menu" class="openicon">☰ </a>
+          <div id="menu">
+           <div class="menu-inner">
+               <a href="#" class="closeicon">✕</a>
+                <ul>
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Campus</li>
+                  <li>Academics</li>
+                  <li>Reasearch</li>
+                  <li>Events</li>
+                  <li>Gallery</li>
+                  <li>Contact us</li>
+                </ul>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+header {
+	box-shadow: 0px 0px 10px 0px #0000001f;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.heads {
+	margin:10px 0px 0px 0px;
+	display:flex;
+}
+.logo {
+	max-width:30%;
+	min-width:200px;
+}
+.menu {
+	max-width:70%;
+	min-width:100px;
+	margin-left: auto;
+	text-align:center;
+}
+.menu ul {
+	display: flex;
+	list-style: none;
+	gap: 16px;
+	margin:0px;
+	margin-top:15px;
+}
+.menu ul li {
+    font-weight: 500;
+	font-size: 18px;
+}
+.openicon {
+	display:none;
+	position: relative;
+    float: right;
+    font-size: 34px;
+    right: 8px; 
+    font-weight: bold;
+}
+.closeicon {
+	display:none;
+	float:right;
+	font-size: 28px; 
+}
+/****Mobile And iPad screens***/
+@media screen and (max-width: 768px) {
+    .openicon, .closeicon {
+         display:block;
+    }
+    #menu {
+         position: fixed;
+         left: 0px;
+         background: #00000094;
+         width: 100%;
+         height: 100%;
+         top: 0px;
+         text-align: left;
+                 z-index: 9999;
+         display: none;
+    }
+    .menu-inner{
+        background: white;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        width: 70%;
+        position: absolute;
+        padding: 20px;
+    }
+    #menu ul {
+         display: block;
+         margin-top: 45px;
+    }
+    #menu ul li {
+         margin-bottom:25px;
+    }
+}

@@ -1,0 +1,212 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #b80a61;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    align-items: center;
+    background: #b80a61;
+    color: white;
+    padding: 15px 20px;
+    justify-content: space-between;
+}
+
+header img {
+    height: 50px;
+    width:1000px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #b80a61;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav a:hover, nav a.active {
+    background-color: #b80a61;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('images/main-image.jpg') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Content Section Styles */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+    color: #b80a61;
+}
+
+.content p {
+    font-size: 16px;
+    color: #555;
+}
+
+.campus-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.campus-item {
+    width: 300px;
+    margin: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 15px;
+}
+
+.campus-item h3 {
+    margin-top: 0;
+    color: #b80a61;
+}
+
+.campus-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.campus-item p {
+    font-size: 14px;
+    color: #333;
+}
+
+.campus-item .btn {
+    display: inline-block;
+    background: #b80a61;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.campus-item .btn:hover {
+    background: #b80a61;
+}
+
+/* Footer Styles */
+.footer {
+    background: #b80a61;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #b80a61;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header img {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #b80a61;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url("main image.jpg") no-repeat center center/cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hero h2 {
+    background-color: ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #b80a61;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+

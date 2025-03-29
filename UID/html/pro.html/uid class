@@ -1,0 +1,13 @@
+<html>
+\<bod>
+<p>This text is normal.</p>
+<p><b>This text is bold.</b></p>
+<p><strong>This text is strong.</strong></p>
+<p><i>this text is italic.</i></p>
+<p>this text is<mark>marked</marl></p>
+<p><u>this text is underlined.</u></p>
+<p><del>this text is deleted</del></p>
+<p>this text is <sub>subscripted</sub></p>
+<p>this text is <sup>superscripted</sup></p>
+</body>
+</html>
